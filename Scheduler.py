@@ -43,6 +43,8 @@ import os
 import numpy as np
 import random
 
+#os.getcwd()
+os.chdir('/Users/Path/To/Carpool Scheduler Folder')
 
 # Set up the credentials
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
